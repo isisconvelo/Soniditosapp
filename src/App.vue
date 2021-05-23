@@ -1,8 +1,8 @@
 <template>
   <div id="app">
     <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+      <router-link to="/">isis</router-link> |
+      <router-link to="/about">soniditos</router-link>
     </div>
     <router-view/>
   </div>
@@ -14,7 +14,17 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  background-color: #2c3e50;
+
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+html, body{ 
+  height: 100%;
+  width: 100%;
+  margin: 0;
 }
 
 #nav {
